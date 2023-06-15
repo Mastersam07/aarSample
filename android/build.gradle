@@ -73,6 +73,7 @@ android {
 }
 
 
+// Add the below
 String aarPath = localMavenPath
 task useAar {
     File file = project.file("libs")

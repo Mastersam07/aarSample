@@ -16,7 +16,7 @@ allprojects {
         google()
         mavenCentral()
         maven {
-            // [required] arr plugin
+            // [required] aar plugin
             url "${project(':aar').projectDir}/build"
         }
     }
